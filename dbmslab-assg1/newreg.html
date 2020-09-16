@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <title>New Reg</title>
+    
+</head>
+<body>
+
+    <h1 class="text-center">New Registration</h1>
+    <hr><br>
+<div class="container">
+
+    <form action="newreg.php" method="POST">
+        <table>
+            <tr>
+                <td>Name :</td>
+                <td><input type="text" name="studentname" placeholder="Name" required></td>
+            </tr>
+            <tr>
+                <td>Roll Number: </td>
+                <td><input type="text" name="rollnumber" placeholder="Roll Number" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth: </td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Address: </td>
+                <td><input type="text" name="address" placeholder="Address" required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number: </td>
+                <td><input type="phone" name="mobilenumber" placeholder="91********" required></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="mail" name="email" placeholder="Email" required></td>
+            </tr>
+            <tr>
+                <td><em>SGPA</em></td>
+            </tr>
+            <tr>
+                <td>Sem 1: </td>
+                <td><input type="number" step="0.01" name="sgpa1" required></td>
+            </tr>
+            <tr>
+                <td>Sem 2: </td>
+                <td><input type="number" step="0.01" name="sgpa2" required></td>
+            </tr>
+            <tr>
+                <td>Sem 3: </td>
+                <td><input type="number" step="0.01" name="sgpa3"></td>
+            </tr>
+            <tr>
+                <td>Sem 4: </td>
+                <td><input type="number" step="0.01" name="sgpa4"></td>
+            </tr>
+            <tr>
+                <td>Sem 5: </td>
+                <td><input type="number" step="0.01" name="sgpa5"></td>
+            </tr>
+            <tr>
+                <td>Sem 6: </td>
+                <td><input type="number" step="0.01" name="sgpa6"></td>
+            </tr>
+            <tr>
+                <td>Sem 7: </td>
+                <td><input type="number" step="0.01" name="sgpa7"></td>
+            </tr>
+            <tr>
+                <td>Sem 8: </td>
+                <td><input type="number" step="0.01" name="sgpa8"></td>
+            </tr>
+            <!-- <tr>
+                <td><em>CGPA: </em></td>
+                <td><input type="number" step="0.01" name="cgpa" required></td>
+            </tr> -->
+            <tr>
+                <td>Hobbies: </td>
+                <td><input type="text" name="hobbies" placeholder="eg: Music, Poetry etc" required></td>
+            </tr>
+            <tr>
+                <td>Hosteller / Day Scholar  :    </td>
+                <td><input type="radio" name="residence" value="h" required> Hosteller</td>
+                <td><input type="radio" name="residence" value="d" required> Day Scholar</td>
+            </tr>
+            <tr>
+                <td>References: </td>
+                <td><input type="text" name="ref" required></td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <br>
+                <input type="submit" class="btn btn-info" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+
+</body>
+</html>
