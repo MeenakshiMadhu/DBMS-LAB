@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>New Sport</title>
+</head>
+<body>
+    <div class="container">
+        <br><br><br>
+        <h4>Enter New Sport Details:  </h4>
+        <br>
+        <form action="http://localhost/SEM%205-DBMS%20LAB/dbmslab-assg8/newsport.php" method="POST">
+        <table>
+            <tr>
+                <td>Sport ID:   </td>
+                <td><input type="text" name="sport_id" placeholder="Sport ID" required></td>
+            </tr>
+            <tr>
+                <td>Sport Name:   </td>
+                <td><input type="text" name="sport_name" placeholder="Sport Name" required></td>
+            </tr>
+            <tr>
+                <td>------------------</td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Submit"></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+</body>
+</html>

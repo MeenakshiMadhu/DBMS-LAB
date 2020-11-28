@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Update Event</title>
+</head>
+
+<body>
+    <div class="container">
+        <br><br><br>
+        <form action="http://localhost/SEM%205-DBMS%20LAB/dbmslab-assg8/updevent.php" method="POST">
+            <h5>Enter Event ID to be updated: </h5>
+            <table>
+                <tr>
+                    <td>Event ID: </td>
+                    <td><input type="text" name="event_id" placeholder="Event ID" required></td>
+                </tr>
+            </table>
+            <br>
+            <h5>Enter New Event details: </h5>
+            <table>
+                <tr>
+                    <td>Event Name: </td>
+                    <td><input type="text" name="event_name" placeholder="Event Name" required></td>
+                </tr>
+                <tr>
+                    <td>Sport ID: </td>
+                    <td><input type="text" name="sport_id" placeholder="Sport ID" required></td>
+                </tr>
+                <tr>
+                    <td>------------------</td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
